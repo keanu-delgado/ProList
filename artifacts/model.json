@@ -1,0 +1,115 @@
+{
+  "users": {
+    "124": {
+      "username": "delgadude",
+      "name": "Keanu",
+      "facebookToken": "aef2f088a",
+      "googleToken": "ae2fb208c",
+      "email": "keanu@mit.edu",
+      "password": "saltedhashyum",
+      "friends": [100, 201, 304],
+      "contacts": [
+        {
+          "id": 1,
+          "displayName": "John Doe",
+          "type": "facebook",
+          "identifier": "john.doe258294"
+        }
+      ],
+      "pro": true,
+      "messages": [
+        {
+          "messageid": 55,
+        }
+      ],
+      "events": [
+        {
+          "id": 16,
+          "deals": [],
+          "purchased": true,
+          "purchasedOn": "06/22/2016",
+          "accepted": true,
+          "invitedBy": 124,
+          "invitedOn": "06/20/2016",
+          "inviteText": ""
+        }
+      ],
+      "uploads": [10050, 5824, 103289],
+      "savedPayment": [
+        {
+          "type": "Visa",
+          "num": "1093748392847372",
+          "exp": "02/20",
+          "ccv": "925",
+          "addr": {}
+        }
+      ],
+    }
+  },
+  "events": {
+    "16": {
+      "title": "PARTY",
+      "time": 000283592341,
+      "venue": "My house",
+      "description": "Gonna be hype",
+      "creator": 124,
+      "invites": [
+        {
+          "user": 124,
+          "deals": [1],
+          "message": "Yo"
+        },
+        {
+          "user": 215,
+          "deals": [],
+          "message": ""
+        }
+      ],
+      "confirmed": [124, 215],
+      "visibility": "private",
+      "flyerImage": 460348963,
+      "inviteImage": 023485634,
+      "deals": [
+        {
+          "id": 1,
+          "text": "Give this man a cookie"
+        },
+      ],
+      "cost": 20.5,
+      "hype": 315,
+      "posts": {
+        "1": {
+          "user": 124,
+          "time": 00946348,
+          "type": "text",
+          "text": "blah",
+          "likes": [124, 215],
+          "hype": 20
+        },
+        "2": {
+          "user": 204,
+          "time": 100345892,
+          "type": "image",
+          "image": 2850382049,
+          "likes": [203],
+          "hype": 52
+        }
+      }
+    }
+  },
+  "uploads": [
+    {
+      "id": 204693456,
+      "data": 10358293475283402345
+    }
+  ],
+  "messages": [
+    {
+      "id": 5,
+      "from": 205,
+      "to": 314,
+      "text": "Hey what's up?",
+      "received": 24058
+    }
+  ]
+}
